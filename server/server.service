@@ -1,0 +1,13 @@
+[Unit]
+Description=My File Search Server
+After=network.target
+
+[Service]
+User=nobody
+Group=nogroup
+WorkingDirectory=/home/ikechukwu-nwamah/Desktop/server
+ExecStart=/home/ikechukwu-nwamah/Desktop/server/venv/bin/python /home/ikechukwu-nwamah/Desktop/server/server.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

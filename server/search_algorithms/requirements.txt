@@ -1,0 +1,8 @@
+ahocorapy==1.6.2
+configparser==7.0.0
+future==1.0.0
+iniconfig==2.0.0
+packaging==24.0
+pluggy==1.5.0
+pytest==8.2.0
+typing==3.7.4.3
